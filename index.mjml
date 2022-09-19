@@ -1,0 +1,175 @@
+<mjml>
+  <mj-head>
+    <mj-style>
+      * {
+        box-sizing: border-box
+      }
+
+      .link-color:hover {
+        color: #004c3f;
+        text-decoration: none;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+
+      .link-color {
+        color: #004c3f;
+        text-decoration: none;
+      }
+
+      .small-link-color:hover {
+        color: #008060;
+        text-decoration: none;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+
+      .small-link-color {
+        color: #008060;
+        text-decoration: none;
+      }
+
+      .footer-links {
+        color: #000;
+        text-decoration: none;
+      }
+
+      .footer-links:hover {
+        color: #004c3f;
+        text-decoration: none;
+      }
+    </mj-style>
+    <mj-style inline="inline">
+
+      .header-title { 
+        text-decoration: none!important;
+      }
+      
+      .content-background {
+        background-color: #ffffff;
+      }
+
+      .header {
+        background-color: #004c3f;
+      }
+
+      .section-padding {
+        padding: 0px 30px 0 30px
+      }
+
+      .footer {
+        background-image: url("https://i.postimg.cc/tJF5FqsB/bg-colors.png");
+        background-size: 600px;
+      }
+
+      .icons-size {
+        max-width: 280px;
+        padding: 40px 0px 30;
+      }
+
+      
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#f2f2f2">
+    <mj-section css-class="content-background" padding="0">
+      <mj-include path="./components/header.mjml" />
+
+      <mj-raw>
+        <!-- Start-Top-Section -->
+      </mj-raw>
+      <mj-section>
+        <mj-column padding="20px 0px 30px 0px">
+          <mj-text css-class="header-title" font-size="58px" color="#004c3f" font-weight="bold">
+            What's New
+          </mj-text>
+          <mj-text css-class="header-title" font-size="18px" color="#004c3f" font-weight="normal">
+            July 18, 2028
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-raw>
+        <!-- End-Top-Section -->
+      </mj-raw>
+
+
+      <mj-include path="./components/3-lines.mjml" />
+
+      <mj-raw>
+        <!-- Start-Image-Section -->
+      </mj-raw>
+      <mj-section>
+        <mj-column>
+          <mj-image href="https://shopify.com/blog" src="https://i.postimg.cc/GpWrpKGv/image.jpg" alt="Phone with sneaker sales ad on the screen" padding-bottom="20px" />
+        </mj-column>
+        <mj-column>
+          <mj-text color="#004c3f" font-size="24px" font-weight="bold" padding-bottom="20px">
+            <a class="link-color" href="https://shopify.com/blog">
+              Find more ways to sell with pre-orders
+            </a>
+          </mj-text>
+
+          <mj-text color="#004c3f" font-size="16px" font-weight="normal" padding-bottom="20px" line-height="20px">
+            We've gone and made selling even easier, with pre-orders.
+            Give your customers the ability to pay now, pay a deposit,
+            or pay later, and in the process, increase your sales, forecast
+            demand, and create buzz for your products.
+          </mj-text>
+
+          <mj-text color="#008060" font-size="14px" font-weight="bold" padding-bottom="20px">
+            <a class="small-link-color" href="https://shopify.com/blog">
+              Learn More <mj-raw><span style="font-size:18px">&nbsp&rarr;<span></mj-raw>
+            </a>
+          </mj-text>
+
+        </mj-column>
+
+      </mj-section>
+      <mj-raw>
+        <!-- End-Image-Section -->
+      </mj-raw>
+
+
+      <mj-include path="./components/3-lines.mjml" />
+
+      <mj-raw>
+        <!-- Start-Text-Section -->
+      </mj-raw>
+      <mj-section padding="40px 40px 20px 40px">
+        <mj-column>
+          <mj-text align="center" font-size="20px" font-weight="bold" line-height="20px" color="#212b35">
+            Running a business like yours isn't a desk job.
+            Keep it from becoming one with the Shopify app.
+          </mj-text>
+        </mj-column>
+
+      </mj-section>
+      <mj-raw>
+        <!-- End-Text-Section -->
+      </mj-raw>
+
+      <mj-raw>
+        <!-- Start-App-store-Section -->
+      </mj-raw>
+      <mj-section padding="0">
+        <mj-group>
+          <mj-column padding="0">
+            <mj-image padding="0 5px" align="right" href="https://apple.com" src="https://i.postimg.cc/J4Td5QKJ/appstore.png" alt="Apple appstore logo" width="150px" height="43px" />
+          </mj-column>
+          <mj-column padding="0">
+            <mj-image padding="0 5px" align="left" href="https://play.google.com/" src="https://i.postimg.cc/BQqZrhJz/android.png" alt="Apple appstore logo" width="150px" height="43px" />
+          </mj-column>
+
+      </mj-section>
+      </mj-group>
+      <mj-raw>
+        <!-- End-App-store-Section -->
+      </mj-raw>
+
+      
+      <mj-include path="./components/footer.mjml" />
+    </mj-section>
+  </mj-body>
+
+
+
+</mjml>
