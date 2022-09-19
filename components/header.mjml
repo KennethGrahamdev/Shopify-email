@@ -1,0 +1,14 @@
+   <mj-raw>
+   <!-- Start-Header -->
+    </mj-raw>
+    <mj-section css-class="header section-padding">
+      <mj-column>
+        <mj-image width="121px" align="left" alt="shopify logo" href="https://shopify.com" src="https://i.postimg.cc/jdwn5xWf/logo.png">
+ 
+        
+      </mj-column>
+
+    </mj-section>
+    <mj-raw>
+      <!-- End-Header -->
+    </mj-raw>
