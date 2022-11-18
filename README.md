@@ -1,2 +1,2 @@
 # Shopify-email
- MJML and HTML code.
+ This is a mock version of a Shopify HTML email that was built using the email framework MJML. This was my first time building an HTML email while using a framework. A word of caution, the HTML hasn't been formatted for readability(formatting the HTML file increases the size of the file). Feel free to format using your favorite formatting extension (I use the Prettier extension in VS Code).
